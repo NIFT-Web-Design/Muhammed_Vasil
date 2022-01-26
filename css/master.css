@@ -5,8 +5,6 @@ header{
   background-color: #2a2a2a;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 header > div{
   display: flex;
@@ -35,6 +33,11 @@ header div nav .active{ /* Active Link has a Blue background */
   padding: 10px;
   border-radius: 5px;
 }
+
+/* ////////////////////////////////////////////////////////
+        STARTING NEW SECTION (1)
+    /////////////////////////////////////////////////////// */
+
 main #section1{
   background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
   background-position: center;
@@ -49,22 +52,27 @@ h1{
   text-shadow: 1px 2px 2px black;
   font-family: "Montserrat Light";
 }
-main #section2{
+
+/* ////////////////////////////////////////////////////////
+        STARTING NEW SECTION (2)
+    /////////////////////////////////////////////////////// */
+
+#section2{
   text-align: center;
-  padding: 54px 0;
+  padding: 72px 0;
   margin: auto;
   background-color: white;
 }
 #section2 p {
-  font-size: 16px;
+  font-size: 18px;
   color: #A8969E;
-  width: 1000px;
-  font-family: "Montserrat";
+  max-width: 1000px;
+  font-family: "Calibri";
   margin: 0 auto;
   text-align: center;
   line-height: normal;
 }
-section#section2 h2 {
+#section2 h2 {
   font-size: 34px;
   font-weight: 300;
   color: #0a465b;
@@ -72,26 +80,276 @@ section#section2 h2 {
   margin-bottom: 32px;
   font-family: "Montserrat Light"
 }
-main #section3{
+
+/* SPAN COLOR */
+
+span{
+  color: orange;
+}
+
+/* ////////////////////////////////////////////////////////
+        STARTING NEW SECTION (3)
+    /////////////////////////////////////////////////////// */
+
+main .section3{
   text-align: center;
-  padding: 54px 0;
+  padding: 72px 0;
   margin: auto;
   background-color: #EDEFF3;
 }
-section#section3 h2 {
+.section3 h2 {
   font-size: 34px;
   font-weight: 300;
   color: #0a465b;
   text-align: center;
+  line-height: normal;
   margin-bottom: 32px;
   font-family: "Montserrat Light"
 }
-#section3 p {
-  font-size: 16px;
+.section3 p.section3info {
+  font-size: 18px;
   color: #A8969E;
-  width: 1000px;
-  font-family: "Montserrat";
+  max-width: 1000px;
+  font-family: "Calibri";
   margin: 0 auto;
   text-align: center;
   line-height: normal;
 }
+.section3 .table{
+  display: flex;
+  gap: 15px;
+  margin-top: 32px ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+.section3 .table article{
+  max-width: 260px;
+  background-color: white;
+  box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+
+}
+.section3 .table article h3{
+  background-color: #107698;
+  color: white;
+  padding: 0 16px;
+  min-height: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  border-bottom: solid #EDEFF3 8px;
+}
+.section3 .table article p{
+  text-align: left;
+  font-size: 17px;
+  color: #A8969E;
+  font-family: "Calibri";
+  line-height: normal;
+  padding: 20px;
+}
+hr{
+  border-top: 1px solid #EDEFF3;
+}
+
+/* ////////////////////////////////////////////////////////
+        STARTING NEW SECTION (4)
+    /////////////////////////////////////////////////////// */
+
+    #section4{
+      text-align: center;
+      padding: 72px 0;
+      margin: auto;
+      background-color: white;
+    }
+    #section4 p {
+      font-size: 18px;
+      color: #A8969E;
+      max-width: 900px;
+      font-family: "Calibri";
+      margin: 0 auto;
+      text-align: center;
+      line-height: normal;
+    }
+    #section4 h2 {
+      font-size: 34px;
+      font-weight: 300;
+      color: #0a465b;
+      text-align: center;
+      margin-bottom: 32px;
+      font-family: "Montserrat Light"
+    }
+
+/* THE TABLE LIKE THING STARTS HERE */
+/* ROW 1 */
+
+.table2{
+  display: flex;
+  gap: 20px;
+  margin-top: 32px ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1120px;
+}
+.table2 article{
+  max-width: 350px;
+}
+.table2 article h3{
+  color: black;
+  padding: 0 5px;
+  min-height: 50px;
+  margin: auto;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Calibri";
+  font-weight: 500;
+  border-bottom: solid orange 2px;
+}
+.table2 article p{
+  text-align: left;
+  font-size: 14px;
+  color: #A8969E;
+  font-family: "Calibri";
+  line-height: normal;
+  padding: 20px;
+}
+
+/* ////////////////////////////////////////////////////////
+        STARTING NEW SECTION (5)
+    /////////////////////////////////////////////////////// */
+
+    main .section5{
+      text-align: center;
+      padding: 72px 0;
+      margin: auto;
+      background-color: #EDEFF3;
+    }
+    .section5 h2 {
+      font-size: 34px;
+      font-weight: 300;
+      color: #0a465b;
+      text-align: center;
+      line-height: normal;
+      margin-bottom: 32px;
+      font-family: "Montserrat Light"
+    }
+    .section5 p.section3info {
+      font-size: 18px;
+      color: #A8969E;
+      max-width: 1000px;
+      font-family: "Calibri";
+      margin: 0 auto;
+      text-align: center;
+      line-height: normal;
+    }
+    .section5 .table{
+      display: flex;
+      gap: 30px;
+      margin-top: 32px ;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1120px;
+    }
+    .section5 .table article{
+      max-width: 360px;
+      background-color: white;
+      box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+
+    }
+    .section5 .table article h3{
+      background-color: #107698;
+      color: white;
+      padding: 0 16px;
+      min-height: 110px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: "Montserrat";
+      border-bottom: solid #EDEFF3 8px;
+    }
+    .section5 .table article p{
+      text-align: left;
+      font-size: 17px;
+      color: #A8969E;
+      font-family: "Calibri";
+      line-height: normal;
+      padding: 20px;
+    }
+    hr{
+      border-top: 1px solid #EDEFF3;
+    }
+
+    /* ////////////////////////////////////////////////////////
+            STARTING NEW SECTION (6)
+        /////////////////////////////////////////////////////// */
+
+
+        #section6{
+          text-align: center;
+          padding: 72px 0;
+          margin: auto;
+          background-color: white;
+        }
+
+        #section6 h2 {
+          font-size: 34px;
+          font-weight: 300;
+          color: #0a465b;
+          text-align: center;
+          margin-bottom: 32px;
+          font-family: "Montserrat Light"
+        }
+
+        #section6 p{
+          text-align: center;
+          font-size: 14px;
+          color: #A8969E;
+          font-family: "Calibri";
+          line-height: normal;
+          padding: 20px;
+        }
+
+
+/* ////////////////////////////////////////////////////////
+                STARTING NEW SECTION (7)
+/////////////////////////////////////////////////////// */
+
+            #section7{
+              background-color: #EDEFF3;
+              text-align: center;
+              padding: 50px;
+            }
+            #section7 h2 {
+              font-size: 34px;
+              font-weight: 300;
+              color: #0a465b;
+              text-align: center;
+              margin-bottom: 18px;
+              font-family: "Montserrat Light"
+            }
+
+/* ////////////////////////////////////////////////////////
+                    STARTING NEW SECTION (8)
+/////////////////////////////////////////////////////// */
+
+footer {
+  padding: 30px 0;
+  background-color: #504f4f;
+  text-align: center;
+  color: lightgrey;
+  font-family: "Calibri";
+  font-size: 18px;
+  line-height: normal;
+}
+
+/* THE END... SHEEEESH!!!!!!!!! */
