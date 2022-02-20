@@ -1,22 +1,198 @@
+body{
+  background-color: #666871;
+}
 body div#main{
   display: flex;
-  width: 1200px;
+  max-width: 800px;
   margin: auto;
 }
+
+/* BODY LEFT DIVISION STARTS HERE */
+
 body div#left{
   width: 45%;
+  background-color: black;
 }
 body div#l1{
   background-color: white;
-  height: 200px;
+  height: 280px;
 }
+#dp{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
 body div#l2{
-  background-color: black;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+body div #l2 .lefth2{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+}
+body div #l2 .lefth2-1{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+body div #l2 .hrwhite{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+body div #l2 .icons{
+  height: 30px;
+  margin-right: 20px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body div #l2 p.pleft{
+  color: #c5c5c5;
+  display: inline;
+  font-family: "calibri";
+  font-size: 12px;
+}
+body div #l2 a:link{
+  color: #c5c5c5;
+  text-decoration: none;
+  font-family: "calibri";
+  font-size: 12px;
+}
+
+/* education list */
+
+.edu{
+  margin-bottom: 20;
+}
+.EduYear{
+  color: grey;
+  font-family: "calibri";
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.EduCourse{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.EduInst{
+  color: grey;
+  font-family: "calibri";
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+
+
+/* --------------------------------
+  BODY RIGHT DIVISION STARTS HERE
+-----------------------------------*/
+
+
+
 body div#right{
   width: 55%;
+  background-color: white;
 }
-body div#r1{
+body div #r1{
   background-color: black;
-  height: 100;
+  height: 200px;
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body div #r1 .mainh1{
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+body div #r1 .mainh2{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+}
+body div #r1 .hrR1{
+  color: white;
+  margin-top: 30px;
+}
+body div #r2{
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+body div #r2 .righth2{
+  color: #4d4d4d;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+}
+.hrblack{
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+
+/* work list */
+
+.work{
+  margin-bottom: 30px;
+}
+.WorkYear{
+  color: #4d4d4d;
+  font-family: "calibri";
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.WorkPosition{
+  color: #5a5a5a;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.comp{
+  color: #4d4d4d;
+  font-family: "calibri";
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.righth3{
+  color: #4d4d4d;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+
+}
+.skills{
+  color: black;
+  font-family: "calibri";
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.LAST{
+  color: black;
+  font-family: "calibri";
+  font-size: 14px;
+  margin-bottom: 50px;
 }
