@@ -1,0 +1,22 @@
+body div#main{
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+body div#left{
+  width: 45%;
+}
+body div#l1{
+  background-color: white;
+  height: 200px;
+}
+body div#l2{
+  background-color: black;
+}
+body div#right{
+  width: 55%;
+}
+body div#r1{
+  background-color: black;
+  height: 100;
+}
