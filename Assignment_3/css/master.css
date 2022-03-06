@@ -1,0 +1,426 @@
+
+/* ------------------------------
+        FONT IMPORT Vegawanty
+--------------------------------*/
+
+@font-face {
+  font-family: Vegawanty;
+  src: url('fonts/Vegawanty.ttf');
+}
+
+/* ------------------------------
+        stylesheet
+--------------------------------*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+  background-color: white;
+  padding-top: 0px;
+}
+header{
+  background-color: black;
+  height: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  position: fixed;
+  top: 0px;
+  min-width: 1100px;
+  width: 100%;
+  z-index: 9;
+}
+header #logo1{
+  height: 68px;
+  position: relative;
+  top: 15px;
+}
+header #label{
+  position: absolute;
+  left: 296px; top: 20px;
+  font-size: 18px;
+  font-family: "Filson Pro";
+  font-weight: bold;
+  line-height: 20px;
+  color: white;
+}
+header div.navi{
+  display: flex;
+  float: right;
+  padding-right: 400px;
+  padding-top: 40px;
+}
+header a{
+  font-family: "Filson Pro";
+  font-size: 18px;
+  color: #E3E3E3;
+  margin-left: 40px;
+  text-decoration: none;
+}
+header a.active{
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+main #banner{
+  max-width: 100%;
+  height: auto;
+}
+main #Title{
+  font-family: "Vegawanty";
+  font-size: 100px;
+  line-height: 85px;
+  position: absolute;
+  width: 676px;
+  top: 348px;
+  left: 200px;
+  color: white;
+}
+main div#cover #BigTitle{
+  font-size: 120px;
+}
+
+main p.ParaWhite{
+  width: 676px;
+  color: #E3E3E3;
+  font-size: 16px;
+  font-family: "Filson Pro";
+  font-weight: regular;
+  position: absolute;
+  max-width: 676px;
+  top: 669px;
+  left: 200px;
+  color: #E3E3E3;
+  line-height: 32px;
+}
+
+/* ----------------------------------
+      CONTENT CONTAINER 1 STARTS
+-------------------------------------*/
+
+main #ContentContainer1{
+  display: flex;
+  width: 100%;
+  padding-left: 168px;
+  padding-right: 200px;
+}
+main #ContentContainer1Left{
+  max-width: 856px;
+  padding-top: 36px;
+}
+main #img1{
+  max-height: 683px;
+}
+main #ContentContainer1Right{
+  padding-top: 232px;
+  padding-left: 104px;
+}
+main #ContentContainer1Right InfoMain{
+  width: 100%;
+}
+main h2.TitleMain{
+  width: 676px;
+  font-size: 72px;
+  font-family: "Vegawanty";
+  margin-bottom: 32px;
+
+}
+main p.InfoMain{
+  color: black;
+  width: 676px;
+  font-family: "Filson Pro";
+  font-size: 16px;
+  line-height: 32px;
+
+}
+
+/* ----------------------------------
+      CONTENT CONTAINER 2 STARTS
+-------------------------------------*/
+
+main #ContentContainer2{
+  display: flex;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+main #ContentContainer2Left{
+  width: 1200px;
+  padding-top: 236px;
+}
+main #ContentContainer2Right{
+  padding-top: 140px;
+  padding-left: 104px;
+}
+main h2.TitleMain{
+  width: 800px;
+  font-size: 72px;
+  font-family: "Vegawanty";
+  margin-bottom: 32px;
+}
+main p.InfoMain{
+  color: black;
+  width: 840px;
+  font-family: "Filson Pro";
+  font-size: 16px;
+  line-height: 32px;
+}
+main #ContentContainer2Right #img2{
+  max-width: 692px;
+  position: relative;
+  left: -250px;
+}
+
+
+
+#hr1{
+  margin-top: 207px;
+  width: 80%;
+  margin-bottom: 139px;
+}
+
+
+/*------------------------------------
+          ABOUT THE PAINTING
+---------------------------------------*/
+
+
+
+
+
+#TitleCenter{
+  text-align: center;
+  margin: auto;
+  width: 800px;
+  font-size: 72px;
+  font-family: "Vegawanty";
+  color: black;
+  margin-bottom: 32px;
+}
+#hr2{
+  width: 462px;
+  margin-top: 33px;
+  margin-bottom: 132px;
+}
+#cover2{
+  width: 100%;
+  height: auto;
+  margin-bottom: 170px;
+}
+
+/*------------------------------------
+    ABOUT THE PAINTING-- FLEXBOARD
+---------------------------------------*/
+
+
+
+
+#AboutThePaintingR1{
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+#AboutThePaintingR2{
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+#AboutThePaintingR3{
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+#L1{
+  width: 698px;
+}
+#R1{
+  width: 696px;
+  margin-left: 128px;
+}
+#R2{
+    width: 696px;
+    margin-left: 128px;
+}
+#R3{
+    width: 696px;
+    margin-left: 128px;
+}
+.AboutTitle{
+  font-family: "Vegawanty";
+  font-size: 50px;
+  margin-bottom: 53px;
+}
+.InfoAbout{
+  color: black;
+  width: 696px;
+  font-family: "Filson Pro";
+  font-size: 16px;
+  line-height: 32px;
+}
+#hr3{
+  margin-top: 211px;
+  margin-bottom: 159px;
+  width: 80;
+
+}
+
+
+
+
+
+/*------------------------------------
+          RESPOSIVE DESIGN
+---------------------------------------*/
+
+@media (max-width: 1800px) {
+  main #banner{
+    max-width: 100%;
+    height: auto;
+  }
+  main #Title{
+    top: 298px;
+    font-size: 100px;
+    line-height: 85px;
+  }
+  main div#cover #BigTitle{
+    font-size: 120px;
+  }
+  main div#cover #BigTitle{
+    font-size: 100px;
+  }
+  main p.ParaWhite{
+    top: 619px;
+    max-width: 500px;
+  }
+  #img2{
+    display: none;
+  }
+  main #ContentContainer2Left{
+    padding-top: 150px;
+  }
+  #AboutThePaintingR1 {
+    flex-direction: column;
+  }
+  #AboutThePaintingR2 {
+    flex-direction: column;
+  }
+  #AboutThePaintingR3 {
+    flex-direction: column;
+  }
+  #L1{
+    width: 840px
+    margin-top: 50px;
+  }
+  #L2{
+    width: 840px
+    margin-top: 50px;
+  }
+  #L3{
+    width: 840px
+    margin-top: 50px;
+  }
+  #R1{
+    width: 840px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  #R2{
+      width: 840px;
+      margin-left: 0px;
+      margin-top: 50px;
+  }
+  #R3{
+      width: 840px;
+      margin-top: 50px;
+      margin-left: 0px;
+  }
+}
+@media (max-width: 1700px) {
+  #ContentContainer1 {
+    flex-direction: column;
+  }
+  main #Title{
+    font-size: 100px;
+    line-height: 85px;
+  }
+  main div#cover #BigTitle{
+    font-size: 120px;
+  }
+  main #ContentContainer1{
+    display: flex;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  main #ContentContainer1Left{
+    padding-left: 100px;
+  }
+  main #ContentContainer1Right{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 10%;
+  }
+  main p.ParaWhite{
+    display: none;
+  }
+  #AboutThePaintingR1 {
+    flex-direction: column;
+  }
+  #AboutThePaintingR2 {
+    flex-direction: column;
+  }
+  #AboutThePaintingR3 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1400px) {
+  main #banner{
+    max-width: 100%;
+    height: auto;
+  }
+  main #Title{
+    top: 298px;
+    font-size: 80px;
+    line-height: 72px;
+  }
+  main div#cover #BigTitle{
+    font-size: 100px;
+  }
+  #ContentContainer1 {
+    flex-direction: column;
+  }
+  main #ContentContainer1{
+    display: flex;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  main #ContentContainer1Right{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 1200px){
+  main #Title{
+    position: absolute;
+    top: 250px;
+    font-size: 80px;
+    line-height: 72px;
+    }
+}
+@media (max-width: 1050px){
+  main #Title{
+    position: absolute;
+    top: 225px;
+    font-size: 72px;
+    line-height: 65px;
+    }
+    main p.InfoMain{
+      max-width: 600px;
+    }
+}
