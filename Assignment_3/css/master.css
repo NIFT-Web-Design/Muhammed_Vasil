@@ -384,48 +384,77 @@ footer{
     top: 619px;
     max-width: 500px;
   }
-  #img2{
-    display: none;
+#ContentContainer2{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+}
+#ContentContainer1Left{
+  margin: auto;
+  position: relative;
+  left: -100px;
+}
+#ContentContainer1Right{
+    margin: auto;
+}
+#ContentContainer2Left{
+    margin: auto;
+}
+#ContentContainer2Right{
+    margin: auto;
+}
+#img2{
+    position: relative;
+    left: 0;
+    margin: auto;
   }
+
   main #ContentContainer2Left{
-    padding-top: 150px;
+    padding-top: 50px;
   }
   #AboutThePaintingR1 {
     flex-direction: column;
+    margin: 0px;
   }
   #AboutThePaintingR2 {
     flex-direction: column;
+    margin: 0px;
   }
   #AboutThePaintingR3 {
     flex-direction: column;
   }
+  .InfoAbout{
+    width: 100%;
+  }
   #L1{
-    width: 840px
+    width: 840px;
+    margin: auto;
     margin-top: 50px;
   }
   #L2{
-    width: 840px
+    width: 840px;
+    margin: auto;
     margin-top: 50px;
   }
   #L3{
-    width: 840px
+    width: 840px;
+    margin: auto;
     margin-top: 50px;
   }
   #R1{
     width: 840px;
-    margin-left: 0px;
+    margin: auto;
     margin-top: 50px;
   }
   #R2{
       width: 840px;
-      margin-left: 0px;
+      margin: auto;
       margin-top: 50px;
   }
   #R3{
       width: 840px;
+      margin: auto;
       margin-top: 50px;
-      margin-left: 0px;
-  }
 }
 @media (max-width: 1700px) {
   #ContentContainer1 {
@@ -501,6 +530,32 @@ footer{
     font-size: 80px;
     line-height: 72px;
     }
+
+  #ArtisanL{
+    margin: auto;
+    padding-left: 0;
+  }
+  .ArtisanPhoto{
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    left: -200px;
+  }
+  #ArtisanInfo{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 150px;
+  }
+  .ArtisanTitle{
+    padding-left: 0;
+  }
+  .ArtisanAbout{
+    width: 840px;
+    padding-left: 0;
+  }
 }
 @media (max-width: 1050px){
   main #Title{
