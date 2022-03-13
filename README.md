@@ -1,2 +1,2 @@
 # Muhammed_Vasil - Assignments:
-[[ Website Link ]](My_Link/Assignment_1)
+[[ Website Link ]](https://nift-web-design.github.io/Muhammed_Vasil/Assignment_3/)
