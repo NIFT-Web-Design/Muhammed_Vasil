@@ -456,7 +456,6 @@ footer{
       margin: auto;
       margin-top: 50px;
 }
-@media (max-width: 1700px) {
   #ContentContainer1 {
     flex-direction: column;
   }
@@ -481,9 +480,6 @@ footer{
     padding-left: 100px;
     padding-right: 10%;
   }
-  main p.ParaWhite{
-    display: none;
-  }
   #AboutThePaintingR1 {
     flex-direction: column;
   }
@@ -494,7 +490,10 @@ footer{
     flex-direction: column;
   }
 }
-
+@media (max-width: 1699px){
+  .ParaWhite{
+    display: none;
+  }
 @media (max-width: 1400px) {
   main #banner{
     max-width: 100%;
